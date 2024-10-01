@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+    <Button
+        android:id="@+id/buttonLottoGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로또 게임"
+        android:layout_marginTop="16dp" />
+    <Button
+        android:id="@+id/buttonMontyHallGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="몬티홀 딜레마 게임"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonRouletteGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="돌림판	게임"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonLadderGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사다리	타기	게임"
+        android:layout_marginTop="16dp" />
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="종료"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

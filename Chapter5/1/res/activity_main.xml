@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:rowCount="5"
+    tools:context=".MainActivity">
+    <!-- 결과를	표시할	TextView -->
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill_horizontal"
+        android:background="#EEEEEE"
+        android:gravity="end"
+        android:maxHeight="48dp"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:text="0"
+        android:textSize="24sp" />
+    <!-- 숫자	버튼	(1-9) -->
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_margin="4dp"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_margin="4dp"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:layout_margin="4dp"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/btn_plus"
+        android:layout_row="1"
+        android:layout_column="3"
+        android:layout_margin="4dp"
+        android:text="+" />
+    <!-- 2번	줄	-->
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_margin="4dp"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_margin="4dp"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/btn_6"
+        android:layout_row="2"
+        android:layout_column="2"
+        android:layout_margin="4dp"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/btn_minus"
+        android:layout_row="2"
+        android:layout_column="3"
+        android:layout_margin="4dp"
+        android:text="-" />
+    <!-- 3번	줄	-->
+    <Button
+        android:id="@+id/btn_7"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_margin="4dp"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/btn_8"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_margin="4dp"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/btn_9"
+        android:layout_row="3"
+        android:layout_column="2"
+        android:layout_margin="4dp"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/btn_multiply"
+        android:layout_row="3"
+        android:layout_column="3"
+        android:layout_margin="4dp"
+        android:text="*" />
+    <!-- 4번	줄	-->
+    <Button
+        android:id="@+id/btn_0"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:layout_columnSpan="2"
+        android:layout_margin="4dp"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_margin="4dp"
+        android:text="del" />
+
+    <Button
+        android:id="@+id/btn_calculate"
+        android:layout_row="4"
+        android:layout_column="2"
+        android:layout_margin="4dp"
+        android:text="=" />
+
+    <Button
+        android:id="@+id/btn_divide"
+        android:layout_row="4"
+        android:layout_column="3"
+        android:layout_margin="4dp"
+        android:text="/" />
+</GridLayout>

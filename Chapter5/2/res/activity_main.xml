@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+    <!-- 텍스트를 표시할 TextView -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello, World!"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+    <!-- 폰트 크기 변경 버튼 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+        <Button
+            android:id="@+id/buttonIncreaseSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Increase Size" />
+        <Button
+            android:id="@+id/buttonDecreaseSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decrease Size" />
+    </LinearLayout>
+    <!-- 텍스트 정렬 버튼 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+        <Button
+            android:id="@+id/buttonAlignLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Align Left" />
+        <Button
+            android:id="@+id/buttonAlignCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Align Center" />
+        <Button
+            android:id="@+id/buttonAlignRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Align Right" />
+    </LinearLayout>
+    <!-- 텍스트 스타일 버튼 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+        <Button
+            android:id="@+id/buttonBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bold" />
+        <Button
+            android:id="@+id/buttonItalic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Italic" />
+        <Button
+            android:id="@+id/buttonUnderline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Underline" />
+    </LinearLayout>
+    <!-- 텍스트 색상 변경 버튼 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+        <Button
+            android:id="@+id/buttonRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red" />
+        <Button
+            android:id="@+id/buttonGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Green" />
+        <Button
+            android:id="@+id/buttonBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue" />
+    </LinearLayout>
+    <!-- 텍스트 배경 색상 변경 버튼 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+        <Button
+            android:id="@+id/buttonBgRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bg Red" />
+        <Button
+            android:id="@+id/buttonBgGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bg Green" />
+        <Button
+            android:id="@+id/buttonBgBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bg Blue" />
+    </LinearLayout>
+    <!-- 초기화 버튼 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="32dp">
+        <Button
+            android:id="@+id/buttonReset"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Reset"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@id/buttonBgRed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    </LinearLayout>
+</LinearLayout>

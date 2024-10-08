@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/locationTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="현재 위치 정보"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/startTourButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="가상 투어 시작" />
+
+    <Button
+        android:id="@+id/stopTourButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="투어 종료"
+        android:visibility="gone" />
+</LinearLayout>

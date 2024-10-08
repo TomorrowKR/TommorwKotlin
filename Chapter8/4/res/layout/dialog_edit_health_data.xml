@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/exercise_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="운동 시간 (분)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/food_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="섭취 칼로리"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/sleep_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="수면 시간 (시간)"
+        android:inputType="number" />
+</LinearLayout>

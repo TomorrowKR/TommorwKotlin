@@ -1,0 +1,22 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/healthTrackerFragment">
+    <!-- HealthTrackerFragment 정의	-->
+    <fragment
+        android:id="@+id/healthTrackerFragment"
+        android:name="com.example.myapplication.View.HealthTrackerFragment"
+        android:label="Health Tracker"
+        tools:layout="@layout/fragment_health_tracker">
+        <action
+            android:id="@+id/action_healthTrackerFragment_to_statisticsFragment"
+            app:destination="@id/statisticsFragment" />
+    </fragment>
+    <!-- StatisticsFragment 정의	-->
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="com.example.myapplication.View.StatisticsFragment"
+        android:label="Statistics"
+        tools:layout="@layout/fragment_statistics" />
+</navigation>
